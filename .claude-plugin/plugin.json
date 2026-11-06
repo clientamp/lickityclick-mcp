@@ -1,0 +1,23 @@
+{
+  "name": "lickityclick",
+  "version": "0.1.1",
+  "description": "Create, edit and track LickityClick short links, campaigns and click stats from your AI assistant.",
+  "author": {
+    "name": "Client Amp LLC",
+    "email": "support@lickity.click",
+    "url": "https://lickity.click"
+  },
+  "homepage": "https://lickity.click",
+  "repository": "https://github.com/clientamp/lickityclick-mcp",
+  "license": "MIT",
+  "keywords": [
+    "lickityclick",
+    "url-shortener",
+    "link-tracking",
+    "analytics",
+    "youtube",
+    "sponsors",
+    "mcp"
+  ],
+  "privacyPolicyUrl": "https://lickity.click/privacy"
+}

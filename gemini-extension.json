@@ -1,0 +1,25 @@
+{
+  "name": "lickityclick-mcp",
+  "version": "0.1.1",
+  "description": "Create, edit and track LickityClick short links, campaigns and click stats from your AI assistant.",
+  "settings": [
+    {
+      "name": "LickityClick API key",
+      "description": "API key from your LickityClick dashboard (starts with lc_).",
+      "envVar": "LICKITYCLICK_API_KEY",
+      "sensitive": true
+    }
+  ],
+  "mcpServers": {
+    "lickityclick": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@lickityclick/mcp"
+      ],
+      "env": {
+        "LICKITYCLICK_API_KEY": "$LICKITYCLICK_API_KEY"
+      }
+    }
+  }
+}

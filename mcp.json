@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "lickityclick": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@lickityclick/mcp"
+      ],
+      "env": {
+        "LICKITYCLICK_API_KEY": "${env:LICKITYCLICK_API_KEY}"
+      }
+    }
+  }
+}

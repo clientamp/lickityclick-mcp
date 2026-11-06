@@ -1,0 +1,15 @@
+{
+  "name": "lickityclick",
+  "description": "LickityClick short links, click stats and sponsor campaigns for Claude Code.",
+  "owner": {
+    "name": "Client Amp LLC",
+    "email": "support@lickity.click"
+  },
+  "plugins": [
+    {
+      "name": "lickityclick",
+      "source": "./",
+      "description": "Create, edit and track LickityClick short links, campaigns and click stats from your AI assistant."
+    }
+  ]
+}

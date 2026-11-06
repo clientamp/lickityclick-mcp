@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "lickityclick": {
+      "type": "http",
+      "url": "https://app.lickity.click/api/mcp",
+      "headers": {
+        "Authorization": "Bearer ${LICKITYCLICK_API_KEY}"
+      }
+    }
+  }
+}
